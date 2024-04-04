@@ -1,0 +1,51 @@
+
+
+/*
+    Creamos el estilo de las secciones, ya que todas son iguales.
+    Añadimos múltiples paddings para marcar los márgenes.
+*/
+
+.section{
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+/*
+    Creamos el estilo del título
+*/
+
+#title{
+    font-size: 500%;
+    color: darkcyan;
+}
+
+/*
+    Se añade el estilo de Google Fonts
+*/
+
+.style{
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/*
+    Hacemos el estilo de las secciones con display felx
+*/
+
+.section_partition{
+    display: flex;
+    width: 50%;
+}
+
+/*
+    Hacemos el segundo título para personalizarlo
+*/
+
+#second_title{
+    font-size: 50px;
+}
