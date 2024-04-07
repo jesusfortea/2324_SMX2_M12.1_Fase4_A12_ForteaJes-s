@@ -34,18 +34,81 @@
 }
 
 /*
-    Hacemos el estilo de las secciones con display felx
+    Hacemos el estilo de las secciones con display block y cambiamos su capacidad
 */
 
-.section_partition{
+.section_partition_1_1{
+    display: block;
+    width: 40%;
+}
+
+.section_partition_1_2{
     display: flex;
-    width: 50%;
+    width: 60%;
 }
 
 /*
     Hacemos el segundo título para personalizarlo
 */
 
-#second_title{
+#first_title_section_1{
     font-size: 50px;
+    padding-right: 15%;
+}
+
+/*
+    Hacemos el estilo de la partición 1, para que se junten los dos bloques
+*/
+
+#section-1{
+    display: flex;
+    width: 100%;
+}
+
+/*
+    Añadimos una identificación al texto de la primera sección y le cambiamos el color y tamaño
+*/
+
+#second-title-section-1{
+    color: gray;
+    font-size: 460%;
+}
+
+/*
+    Creamos oto estilo que complemente más con el ejemplo
+*/
+
+.second_style{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+/*
+    Añadimos un padding para que la imgen/texto/titulo quede centralizada/o
+*/
+
+.padding{
+    padding-left: 15%;
+    width: 15%;
+}
+
+/*
+    Hacemos un estilo del texto
+*/
+
+#text_section_1{
+    font-size: 170%;
+}
+
+/*
+    Añadimos una identificación para las imagenes
+*/
+
+#image{
+    height: 100%;
+    border-radius: 1.5%;
 }
