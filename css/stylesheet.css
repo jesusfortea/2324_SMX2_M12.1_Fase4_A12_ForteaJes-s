@@ -88,11 +88,16 @@
 }
 
 /*
-    Añadimos un padding para que la imgen/texto/titulo quede centralizada/o
+    Añadimos los padding para que la imgen/texto/titulo quede centralizada/o
 */
 
 .padding{
-    padding-left: 15%;
+    padding-left: 10%;
+    width: 15%;
+}
+
+.padding-2{
+    padding-right: 15%;
     width: 15%;
 }
 
@@ -111,4 +116,30 @@
 #image{
     height: 100%;
     border-radius: 1.5%;
+}
+
+/*
+    Aplicamos el estilo de la tabla
+*/
+
+#table{
+    background-color: black;
+    color: aliceblue;
+}
+
+#table_title{
+    padding-top: 5%;
+    padding-left: 2%;
+    font-size: 200%;
+    text-align: start;
+}
+
+#table_partition{
+    width: 100%;
+    display: flex;
+    padding-bottom: 5%;
+}
+
+#section25{
+    width: 25%;
 }
