@@ -47,6 +47,26 @@
     width: 60%;
 }
 
+.section_partition_2_2{
+    display: block;
+    width: 40%;
+}
+
+.section_partition_2_1{
+    display: flex;
+    width: 60%;
+}
+
+.section_partition_3_1{
+    display: block;
+    width: 40%;
+}
+
+.section_partition_3_2{
+    display: flex;
+    width: 60%;
+}
+
 /*
     Hacemos el segundo título para personalizarlo
 */
@@ -61,6 +81,16 @@
 */
 
 #section-1{
+    display: flex;
+    width: 100%;
+}
+
+#section-2{
+    display: flex;
+    width: 100%;
+}
+
+#section-3{
     display: flex;
     width: 100%;
 }
@@ -142,48 +172,126 @@
 
 #section25{
     width: 25%;
+    font-size: 120%;
+}
+
+#padding-top{
+    padding-top: 10%;
 }
 
 @media screen and (max-width: 800px){
     .section{
-        width: 100%;
+        width: 90%;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
     }
-
     #title{
-        font-size: 500%;
+        font-size: 300%;
         color: darkcyan;
     }
-
-    .style{
-        font-family: "Reddit Mono", monospace;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal;
-    }
-    
     .section_partition_1_1{
+        display: block;
+        width: 100%;
+    }
+    .section_partition_1_2{
+        display: block;
+        width: 100%;
+    }
+    .section_partition_2_2{
+        display: block;
         width: 100%;
     }
     
-    .section_partition_1_2{
+    .section_partition_2_1{
+        display: block;
         width: 100%;
     }
-
+    
+    .section_partition_3_1{
+        display: block;
+        width: 100%;
+    }
+    
+    .section_partition_3_2{
+        display: block;
+        width: 100%;
+    }
+    #image{
+        width: 100%;
+        height: 100%;
+        border-radius: 1.5%;
+    }
     #section-1{
+        display: block;
+        width: 100%;
+        background-color: rgba(153, 50, 204, 0.1);
+    }
+    #section-2{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(250, 235, 215, 0.2);
+    }
+    #section-3{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(127, 255, 212, 0.2);
+    }
+    #first_title_section_1{
+        font-size: 30px;
+        padding-right: 15%;
+    }
+    #second-title-section-1{
+        color: gray;
+        font-size: 152%;
+    }
+    #section-2{
+        display: block;
         width: 100%;
     }
-
-    #first_title_section_1{
-        font-size: 50px;
+    
+    #section-3{
+        display: block;
+        width: 100%;
     }
 
     .padding{
+        padding-left: 0%;
+        width: 15%;
     }
     
     .padding-2{
+        padding-right: 0%;
+        width: 15%;
     }
 
-    #image{
-        border-radius: 1.5%;
+    #padding-top{
+        padding-top: 0%;
+    }
+
+    #table{
+        background-color: black;
+        color: aliceblue;
+    }
+    
+    #table_title{
+        padding-top: 5%;
+        padding-left: 2%;
+        font-size: 150%;
+        text-align: start;
+    }
+    
+    #table_partition{
+        width: 100%;
+        display: flex;
+        padding-bottom: 5%;
+    }
+    
+    #section25{
+        width: 50%;
+        font-size: 100%;
     }
 }
